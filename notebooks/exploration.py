@@ -52,3 +52,6 @@ print(f"\n { '=' * 50}")
 print("Exploration terminee !")
 print("Prochain lab : entrainer un modele ML")
 print(f"{'=' * 50}")
+# ===== EXERCICE 1 =====
+print("\n--- Nombre de patients par sexe et diagnostic ---")
+print(df.groupby(["sexe", "diagnostic"]).size())
